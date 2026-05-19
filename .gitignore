@@ -1,0 +1,42 @@
+# Python Virtual Environments
+.venv/
+venv/
+PyAutomate/venv/
+PyAutomate/.venv/
+env/
+ENV/
+
+# Python Cache and Compiled Files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# User Data / Saved Settings (Private Profile Configs)
+**/profile.json
+**/user_profile.json
+**/settings.json
+**/config.json
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Local Launch Scripts (contains hardcoded local paths)
+run_hidden.vbs
