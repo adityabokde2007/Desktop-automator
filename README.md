@@ -20,7 +20,7 @@
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <div align="center">
   <h3>Main Dashboard (Dark Mode Theme)</h3>
@@ -56,18 +56,18 @@
 
 ## Key Features & Ecosystem
 
-### 📁 Smart File Organizer
+### Smart File Organizer
 *   **Real-time Monitoring:** Actively watches folders for changes using Python's `watchdog` library.
 *   **Intelligent Classification:** Uses a preconfigured file mapping schema to separate archives, codes, images, applications, and logs.
 *   **Safe Transfer Pipeline:** Retries file operations if a downloaded file is still being written to by the system, avoiding corrupted movements.
 *   **Macro Counters:** Tracks total files moved and dynamically prints status reports directly to the GUI popup.
 
-### ⚡ Automated Screen Capture
+### Automated Screen Capture
 *   **Custom Scheduler:** Set screenshot intervals in seconds and maximum retention timeframes.
 *   **Silent Capture:** Uses PIL/PyAutoGUI to capture screens without interrupting the user.
 *   **Self-Cleanup Pipeline:** Automatically purges screenshots older than 30 days to save disk space.
 
-### 🎤 Nova Voice Assistant
+### Nova Voice Assistant
 *   **Thread-Safe COM Engine:** Communicates directly with the native Windows Speech API (SAPI5) via Python's `win32com` client.
 *   **Lenient Command Recognition:** Uses fuzzy substring checks rather than rigid matching. The assistant naturally understands variations like `"lock screen"`, `"what's the time"`, or `"close chrome"`.
 *   **Aggressive App Termination:** Uses PowerShell pipeline termination to forcefully close stubborn Win11 UWP apps (Notepad, WhatsApp) and standard Win32 executables.
@@ -166,7 +166,7 @@ python PyAutomate/main.py
 
 ---
 
-## 🎤 Supported Voice Commands
+## Supported Voice Commands
 
 The **Nova Voice Assistant** supports these natural verbal triggers:
 
