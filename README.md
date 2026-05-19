@@ -181,8 +181,6 @@ The **Nova Voice Assistant** supports these natural verbal triggers:
 | **App Launching** | `"open notepad"`, `"open chrome"`, `"open whatsapp"`, `"open youtube"` | Opens target application or website |
 | **App Closing** | `"close notepad"`, `"close whatsapp"`, `"close chrome"` | Forcefully terminates target application |
 | **Tab Control** | `"close youtube"` | Automatically focuses Chrome/Edge YouTube window and closes it |
-| **Window Closing** | `"close window"`, `"close this window"` | Presses `Alt + F4` to close the active window |
-| **Power Control** | `"shutdown"`, `"shut down"` | Triggers standard Windows PC shutdown sequence |
 
 ---
 
